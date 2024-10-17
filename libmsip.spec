@@ -14,7 +14,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		http://www.minisip.org/source/%{name}-%{svn}.tar.bz2
-URL:		http://www.minisip.org/
+URL:		https://www.minisip.org/
 License:	GPL
 Group:		System/Libraries
 BuildRoot:	%{_tmppath}/%{name}-buildroot
