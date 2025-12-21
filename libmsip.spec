@@ -18,6 +18,11 @@ URL:		https://www.minisip.org/
 License:	GPL
 Group:		System/Libraries
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libmutil-devel >= 0.3.1-3565.0
 BuildRequires:	libmnetutil-devel >= 0.3.1-3565.0
 BuildRequires:	libmcrypto-devel >= 0.3.1-3565.0
